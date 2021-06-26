@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="css/index.css">
+
+<link rel="stylesheet" href="css/Openmovie.css">
+
+<title>movie-app</title>
+</head>
+<body>
+	
+<header class="dflex">
+<span>🍿</span>
+
+<a class="navbar-brand" href="index.html"><span class="ap">🍿</span>Flix</a>  
+  <button class="gobackbtn" onclick="goback()" type="button">GoBack</button>
+</header>
+
+
+<div class="c">
+ 
+<div class="displayarea">
+  <div class="img">
+     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.icdiuCtWIBiEsoJvyaQqDgHaFj%26pid%3DApi&f=1" alt=" ${tit}" />
+     <div class="btn">
+      <button type="button">YouTube</button>
+      <button type="button">Trailer</button>
+     </div>
+      <div class="btn">
+      <button onclick="offmovie('')" type="button">Official</button>
+      <button onclick="imdbmovie('')" type="button">IMDB</button>
+     </div>
+   </div>
+  <div class="cnrntarea">
+    <h2 class="head">MOVIE NAME</h2>
+    <strong><p>AVERAGE :<span>23.3</span></p></strong> 
+    <strong><p>POPULARITY :<span> 537.3</span></p></strong> 
+    <strong><p>RELEASED DATE :<span> 13-07-2000</span></p></strong> 
+    <strong><p>OVERVIEW :<span>overview of the movie is not been displayed</span></p></strong> 
+  </div>
+</div>
+
+</div>
+
+<div class="ytvideos">
+ <!-- 
+ <iframe src="https://www.youtube.com/embed/ROumauiy1NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ -->
+  
+</div>
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+ getmovie();
+</script>
+</body>
+</html>
+
+

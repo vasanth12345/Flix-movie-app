@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Open+Sans&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+:root{
+--f-logo: 'Dancing Script', cursive;
+--f-bold: 'Dela Gothic One', cursive;
+--f-normal: 'Open Sans', sans-serif;
+--f-style-bold: 'Staatliches', cursive;
+
+
+--main-bg:rgba(13,16,27,255);
+--light-bg:rgb(34,50,93);
+--secwhite:#e6e6e6;
+
+}

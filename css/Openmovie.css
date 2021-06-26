@@ -1,0 +1,115 @@
+
+.c{
+  width:100%;
+  height:auto;
+  position:relative;
+  display:grid;
+  place-items:center;
+}
+.displayarea{
+  color:#fff;
+  margin:3em 0;
+  width:80%;
+  height:auto;
+  background:rgba(34,50,93,0.5);
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-radius:10px;
+}
+.cntntarea{
+  max-width:50%;
+  margin:10px 15px;
+  position:relative;
+}
+.img{
+  position:relative;
+  margin:10px 15px;
+  width:300px;
+}
+.cntntarea{
+text-align:left;
+}
+.img,
+.head{
+  text-align:center;
+}
+.head{
+  color:var(--secwhite);
+  text-shadow:0 0 2.5px cyan;
+}
+button:hover{
+ background:none;
+ color:#fff;
+}
+button{
+ font-weight:bold;
+  padding:5px 10px;
+  background:#fff;
+  border-radius:5px;
+  border:1.5px solid #fff;
+  outline:none;
+  margin:10px;
+}
+.img img{
+  width:100%;
+  height:300px;
+  border:2px solid cyan;
+  border-radius:10px;
+}
+.cntntarea .head{
+  text-align:center;
+}
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+h2,
+strong,
+.dc{
+  margin:5px;
+}
+span{
+  color:cyan;
+}
+.ytvideos{
+  width:100%;
+  height:auto;
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.ytvideos iframe{
+  border:2px solid cyan;
+  margin:20px auto;
+  border-radius:10px;
+}
+.gobackbtn{
+  background:none;
+  border:2px solid #fff;
+  color:#fff;
+}
+.gobackbtn:hover{
+  background:#fff;
+  color:#000;
+}
+
+
+
+@media(max-width:360px), screen and (orientation : portrait){
+  
+  .displayarea{
+    flex-direction:column;
+  }
+  
+  .img,
+  .cntntarea{
+  width:100%;
+  margin-bottom:20px;
+  }
+}
+
+
